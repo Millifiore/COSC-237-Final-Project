@@ -1,11 +1,11 @@
 Event #1
 Event: CS Colloquium Talk
-Date: November 2, 2018
+Date: 11-2-2018
 Time: 1:00pm
 Location: Dixon 125
 
 Event #2
 Event: SACS General Body Meeting
-Date: March 22, 2018
+Date: 3-22-2018
 Time: 11:00am
 Location: USC 212
