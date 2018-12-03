@@ -7,11 +7,20 @@ class Calendar {
         float time;
         string location;
     public:
-        Calendar();
-        void setEvent(string);
-        void setDate(int);
-        void setTime(float);
-        void setLocation(string);
+        Calendar(){
+            event = " ";
+            date = 00-00-0000;
+            time = 00.00;
+            location = " ";
+            };
+        void setEvent(string e)
+            {event = e;}
+        void setDate(int d)
+            {date = d;}
+        void setTime(float t)
+            {time = t;};
+        void setLocation(string l);
+            {location = l;}
     
         string getEvent() const
             { return event;}
