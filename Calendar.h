@@ -3,30 +3,30 @@
 class Calendar {
     private:
         string event;
-        int date;
-        float time;
+        string date;
+        string time;
         string location;
     public:
         Calendar(){
             event = " ";
-            date = 00-00-0000;
-            time = 00.00;
+            date = " ";
+            time = " ";
             location = " ";
             };
         void setEvent(string e)
             {event = e;}
-        void setDate(int d)
+        void setDate(string d)
             {date = d;}
-        void setTime(float t)
+        void setTime(string t)
             {time = t;};
         void setLocation(string l);
             {location = l;}
     
         string getEvent() const
             { return event;}
-        int getDate() const
+        string getDate() const
             { return date;}
-        float getTime() const
+        string getTime() const
             { return time;}
         string getLocation() const
             { return location;}
