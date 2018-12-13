@@ -1,5 +1,9 @@
+#include <iostream>
+using namespace std;
 #ifndef Calendar_H
 #define Calendar_H
+
+
 class Calendar {
     private:
         string event;
@@ -18,8 +22,8 @@ class Calendar {
         void setDate(string d)
             {date = d;}
         void setTime(string t)
-            {time = t;};
-        void setLocation(string l);
+            {time = t;}
+        void setLocation(string l)
             {location = l;}
     
         string getEvent() const
@@ -34,5 +38,3 @@ class Calendar {
 };
 
 #endif
-
-
